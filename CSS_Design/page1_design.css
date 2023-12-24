@@ -1,0 +1,46 @@
+:root{
+  --space-cadet: #2b2d42ff;
+  --dark-blue:#03031F;
+  --cool-gray: #8d99aeff;
+  --antiflash-white: #edf2f4ff;
+  --red-pantone: #ef233cff;
+  --crimson: #d80032ff;
+  --Ariel-family: Arial, Helvetica, sans-serif;
+  --verdna-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.table2 {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px ;
+  text-align: left;
+  color: var(--dark-blue);
+
+}
+
+.headline1{
+  font-family: var(--verdna-family);
+  font-size: 140%;
+}
+
+.car_text{
+  font-family: var(--Ariel-family);
+  font-size: 110%;
+}
+
+
+.content_table2{
+    width: 30%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  .titles2{
+    color: var(--dark-blue);
+    font-family: var(--verdna-family);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
