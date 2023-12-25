@@ -60,7 +60,7 @@ body {
     border-radius: 4px;
   }
   
-  #username,#email {
+  .inputs {
     width: 100%;
     padding: 0 0 0 10px;
     margin: 0;
@@ -94,8 +94,13 @@ body {
     cursor: pointer;
     text-align: center;
   }
-  #logon:hover {
-    background-color: var(--red-pantone);
+  #login:hover {
+    background-color: var(--crimson);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  #login:active{
+    background-color: var(--space-cadet);
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }

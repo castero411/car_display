@@ -5,19 +5,20 @@
         <link rel="stylesheet" href="CSS_Design/sing_in.css">
         <meta charset="uyf-8">
         <link rel="icon" type="image/png" href="Assets/Logo.png">
+        <script src="script/login_Script.js"></script>
         
     </head>
 
     <body>
         
         <div id="login-form-wrap">
-          <h2>Login</h2>
-          <form id="login-form">
+          <h2 onsubmit="submit();">Login</h2>
+          <form id="login-form" >
             <p>
-            <input id="username"  placeholder="Username" >
+            <input class="inputs" name="username" placeholder="Username" type="text">
             </p>
             <p>
-            <input id="email"   placeholder="Email Address" >
+            <input class="inputs" name="password"   placeholder="Email Address" type="password">
             </p>
             <p>
             <input type="submit" id="login" value="Login">
