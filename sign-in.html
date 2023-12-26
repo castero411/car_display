@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sign-in</title>
-        <link rel="stylesheet" href="CSS_Design/sing_in.css">
-        <meta charset="uyf-8">
-        <link rel="icon" type="image/png" href="Assets/Logo.png">
-        <script src="script/login_Script.js"></script>
-        
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" href="CSS_Design/Login.css">
+    <script src="Script/login_Script.js" type="text/javascript"></script>
+</head>
 
-    <body>
-        
-        <div id="login-form-wrap">
-          <h2 onsubmit="submit();">Login</h2>
-          <form id="login-form" >
+<body>
+    <div id="login-form-wrap">
+        <h2>login</h2>
+        <form id="login-form" onsubmit="return val();">
             <p>
-            <input class="inputs" name="username" placeholder="Username" type="text">
+                <input id="username" class="inputs" type="text" placeholder="username">
             </p>
             <p>
-            <input class="inputs" name="password"   placeholder="Email Address" type="password">
+                <input id="password" class="inputs" type="password" placeholder="password">
             </p>
             <p>
-            <input type="submit" id="login" value="Login">
+                <input type="submit" id="login" value="Login">
             </p>
-          </form>
-          <div id="create-account-wrap">
-            <p>Not a member? <a href="#">Create Account</a><p>
-          </div>
+        </form>
+        <div id="create-account-wrap">
+            <p>Not a member? <a href="#">Create Account</a></p>
         </div>
-        
-          
-        </body>
-        </html>
-
-
-
+    </div>
+</body>
 </html>
+
