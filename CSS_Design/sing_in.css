@@ -23,8 +23,7 @@ body {
   text-align: center;
   padding: 20px 0 0 0;
   border-radius: 4px;
-  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
-  
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -37,7 +36,7 @@ input {
   line-height: 60px;
   border-radius: 4px;
   position: relative;
-  
+
 }
 
 .inputs {

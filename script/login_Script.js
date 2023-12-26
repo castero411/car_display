@@ -1,8 +1,10 @@
 
+var valid = false;
+
 function val() {
     var user = document.getElementById("username");
     var flag = 0;
-    var valid = false;
+    
 
 
     if (user.value === ""){
@@ -19,6 +21,7 @@ function val() {
     switch(flag){
         case 0:
             valid = true;
+            window.location.href = "index.html";
             break;
         
         case 1 :
@@ -36,5 +39,12 @@ function val() {
             pass.placeholder = "insert password";
             break;
     }
+    if (valid === true){
+        window.alert("password is valid");
+        window.location.href = "index.html";
+    }
+    
     return valid;
+    
 }
+
