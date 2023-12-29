@@ -32,7 +32,7 @@ body,ul {
 
 
 .nav_bar {
-  background-color: var(--space-cadet);
+  
   display: flex;
   align-items: center; /* Aligns items vertically at the center */
   justify-content: space-between; /* Distributes items to the start and end */
@@ -95,8 +95,12 @@ body,ul {
 }
 
 .bar{
+  z-index: 1000;
+  background-color: var(--space-cadet);
   position: relative;
+  position: sticky ; top: 0;
 }
+
 
 .logo {
   width: 5%;
