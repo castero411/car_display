@@ -11,8 +11,11 @@
 <body>
     <button id = "back_button" onclick="history.back();"><i class="fa fa-chevron-left"></i></button>
     <div id="login-form-wrap">
-        <h2>login</h2>
-        <form id="login-form" onsubmit="return val();">
+        <h2>Register</h2>
+        <form id="login-form" onsubmit="return val2();">
+            <p>
+                <input id="email" class="inputs" type="text" placeholder="email">
+            </p>
             <p>
                 <input id="username" class="inputs" type="text" placeholder="username">
             </p>
@@ -24,7 +27,7 @@
             </p>
         </form>
         <div id="create-account-wrap">
-            <p>Not a member? <a href="sign-up.html">Create Account</a></p>
+            <p>Have an account? <a href="sign-in.html">Log-in</a></p>
         </div>
     </div>
 </body>

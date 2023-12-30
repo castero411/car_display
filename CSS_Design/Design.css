@@ -164,10 +164,10 @@ body,ul {
   left: 50%; 
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white; /* Change the text color */
+  color: white; 
   font-size: 400%; 
   font-family:var(--verdna-family);
-  padding: 100px; 
+  padding: 100%; 
   
 }
 
@@ -233,8 +233,8 @@ border-radius: 124px;
 
 
 .image_scale{
-  width:  500px; /* Set the width of your container */
-  height: 200px; /* Set the height of your container */
+  width:  500px;
+  height: 200px; 
 
   text-align: center;
   overflow: visible;
@@ -301,9 +301,6 @@ border-radius: 124px;
 }
 
 
-
-
-
 .site-footer {
   background-color: var(--dark-blue);
   color: #fff;
@@ -322,6 +319,4 @@ border-radius: 124px;
   margin-bottom: -10px;
 }
 
-@media screen {
-  
-}
+
